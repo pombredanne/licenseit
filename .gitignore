@@ -1,0 +1,4 @@
+dist
+licenseit.egg-info
+__pycache__
+venv
