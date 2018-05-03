@@ -6,7 +6,7 @@ with open(path.join(current_path, 'README.rst'), encoding='utf-8') as file:
       long_description = file.read()
 
 setup(name='licenseit',
-      version='0.0.1.0',
+      version='0.0.2',
       description='CLI for generationg a license files.',
       long_description=long_description,
       url='https://github.com/monzita/licenseit',
