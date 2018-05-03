@@ -24,7 +24,7 @@ from docopt import docopt
 
 from licenseit.commands.new import New
 
-VERSION = '0.0.1'
+VERSION = '0.0.1.0'
 
 def main():
 	global VERSION

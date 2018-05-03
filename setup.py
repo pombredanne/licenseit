@@ -1,8 +1,14 @@
 from setuptools import setup
+from os import path
+
+current_path = path.abspath(path.dirname(__file__))
+with open(path.join(current_path, 'README.rst'), encoding='utf-8') as file:
+      long_description = file.read()
 
 setup(name='licenseit',
-      version='0.0.1',
+      version='0.0.1.0',
       description='CLI for generationg a license files.',
+      long_description=long_description,
       url='https://github.com/monzita/licenseit',
       author='Monika Ilieva',
       author_email='hidden@hidden.com',
