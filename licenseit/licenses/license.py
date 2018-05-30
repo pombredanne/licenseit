@@ -2,10 +2,10 @@ import pkg_resources
 
 ENCODING = 'utf-8'
 
-LICENSE = ["APL-1.0", 'Apache-2.0', 'Artistic-2.0', 'BSD+PATENT', 'BSD-2', 'BSD-3',
-			'CDDL-1.0', 'ECL-2.0', 'EPL-2.0', 'GNU-2.0', 'GNU-3.0', 'IPA',
-			'ISC', 'LGPL-2.0', 'LGPL-2.1', 'MIT', 'MPL-2.0', 'NASA-1.3',
-			'OFL-1.1', 'OPL-2.1', 'UCL-1.0']
+LICENSE = ["APL-1.txt", 'Apache-2.txt', 'Artistic-2.txt', 'BSD+PATENT.txt', 'BSD-2.txt', 'BSD-3.txt',
+			'CDDL-1.txt', 'ECL-2.txt', 'EPL-2.txt', 'GNU-2.txt', 'GNU-3.txt', 'IPA.txt',
+			'ISC.txt', 'LGPL-2.txt', 'LGPL-2-1.txt', 'MIT.txt', 'MPL-2.txt', 'NASA-1.txt',
+			'OFL-1.txt', 'OPL-2.txt', 'UCL-1.txt']
 
 def get_license(index, author, year):
 	global ENCODING
