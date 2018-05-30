@@ -6,7 +6,7 @@ with open(path.join(current_path, 'README.rst'), encoding='utf-8') as file:
       long_description = file.read()
 
 setup(name='licenseit',
-      version='0.0.2',
+      version='0.1.0',
       description='CLI for generationg a license files.',
       long_description=long_description,
       url='https://github.com/monzita/licenseit',
@@ -15,6 +15,9 @@ setup(name='licenseit',
       license='MIT',
       keywords='cli license generator',
       packages=['licenseit'],
+      package_dir={'licenseit' : 'licenseit'},
+      package_data={'licenseit': ['*.txt', 'licenses/content/*']},
+      py_modules=['licenseit.commands', 'licenseit.commands.new', 'licenseit.licenses', 'licenseit.licenses.license'],
       install_requires = ['docopt'],
       entry_points = {
       	'console_scripts': [
